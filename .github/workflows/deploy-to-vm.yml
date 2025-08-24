@@ -8,7 +8,6 @@ on:
       - 'bash-scripts/*'
 
 jobs:
-
   lint:
     runs-on: ubuntu-latest
     steps:
@@ -35,6 +34,7 @@ jobs:
           done
 
   deploy:
+    needs: lint
     runs-on: self-hosted
     environment: deploy-bash-scripts
     steps:
@@ -49,6 +49,7 @@ jobs:
           password: ${{ secrets.VM_PASSWORD }}
           debug: true
           script: |
+            set -e
             cd /home/mohannad/Desktop
             REPO_NAME="Bash-Scripting"
             if [ -d "$REPO_NAME" ]; then
