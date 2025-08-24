@@ -10,4 +10,4 @@ then we allowed ssh through firewall
 sudo ufw allow ssh
 to get the private ip address 
 hostname -I
-I will ditch this approach because the github runner could not access the vm because it is not publicly accessible since it is hosted locally on my machine, I will use local git hooks instead.
+I will ditch this approach because the github runner could not access the vm because it is not publicly accessible since it is hosted locally on my machine, I will use local git hooks instead. apparently git hooks work locally, so they will work on my actual local machine, not on the vm. There is nothing to do here but pull manually to th vm. 
