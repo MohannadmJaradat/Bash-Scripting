@@ -10,3 +10,4 @@ then we allowed ssh through firewall
 sudo ufw allow ssh
 to get the private ip address 
 hostname -I
+I will ditch this approach because the github runner could not access the vm because it is not publicly accessible since it is hosted locally on my machine, I will use local git hooks instead.
