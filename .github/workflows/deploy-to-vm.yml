@@ -55,7 +55,7 @@ jobs:
               rm -rf "$REPO_NAME"
             fi
             echo "Cloning fresh repository..."
-            git clone git@github.com:MohannadmJaradat/Bash-Scripting.git
+            git clone https://github.com/MohannadmJaradat/Bash-Scripting.git
             cd "$REPO_NAME"
             for script in bash-scripts/*.sh; do
               chmod +x "$script"
