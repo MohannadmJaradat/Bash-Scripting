@@ -25,6 +25,6 @@ top -bn1 | grep "Cpu(s)" | awk '{print $2}' | awk -F. '{print $1}' | xargs -I{} 
 # Load average
 echo -e "\nLoad Average: $(uptime | awk -F'load average:' '{print $2}')"
 
-# Most memory-intensive processes
+# Most memory-intensive processes.
 echo -e "\nTop 3 Memory-Intensive Processes:"
 ps aux --sort=-%mem | head -4 | tail -3
