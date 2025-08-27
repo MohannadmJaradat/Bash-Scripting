@@ -10,6 +10,7 @@ REGISTRY=(
   "hello-world.sh:Basic test"
   "date.sh:Time info"
   "variable.sh:Variable demo"
+  "if-statement-1.sh:If statement minimal test"
 )
 
 # Colors for output
