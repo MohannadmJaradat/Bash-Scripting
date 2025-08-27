@@ -11,6 +11,7 @@ REGISTRY=(
   "date.sh:Time info"
   "variable.sh:Variable demo"
   "if-statement-1.sh:If statement minimal test"
+  "if-else-statement-1.sh:If-else statement minimal test"
 )
 
 # Colors for output
