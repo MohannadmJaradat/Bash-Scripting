@@ -17,7 +17,8 @@ REGISTRY=(
   "if-else-statement-using-command-v.sh:Using command -v"
   "exit-codes-1.sh:Check whether htop is installed using exit codes."
   "exit-codes-2.sh:Redirecting output to log files."
-  "exit-codes-3.sh: Check whether directory exists."
+  "exit-codes-3.sh:Check whether directory exists."
+  "xit-codes-4.sh:Manipulate exit codes."
 )
 
 # Colors for output
