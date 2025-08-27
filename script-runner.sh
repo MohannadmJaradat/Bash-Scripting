@@ -18,7 +18,7 @@ REGISTRY=(
   "exit-codes-1.sh:Check whether htop is installed using exit codes."
   "exit-codes-2.sh:Redirecting output to log files."
   "exit-codes-3.sh:Check whether directory exists."
-  "xit-codes-4.sh:Manipulate exit codes."
+  "exit-codes-4.sh:Manipulate exit codes."
 )
 
 # Colors for output
@@ -29,7 +29,7 @@ N='\033[0m'
 # Run script
 _run() {
   local s="$SCRIPTS/$1"
-  if [ -f "$s" ]; then
+  if [ -f "$s" ]; thenS
     echo -e "${G}▶ Running $1...${N}"
     chmod +x "$s" && "$s"
     echo -e "${G}✓ Done${N}\n"
