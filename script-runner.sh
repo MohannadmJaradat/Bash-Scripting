@@ -14,6 +14,7 @@ REGISTRY=(
   "if-else-statement-1.sh:If-else statement minimal test"
   "if-statement-2-check-files.sh:check if a certain file exists"
   "if-else-statement-check-command.sh:check whether command exists"
+  "if-else-statement-using-command-v.sh:Using command -v"
 )
 
 # Colors for output
