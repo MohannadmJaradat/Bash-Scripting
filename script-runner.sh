@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Basic setup
-SCRIPTS="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPTS="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/bash-scripts"
 VER="0.1"
 
 # Scripts registry
