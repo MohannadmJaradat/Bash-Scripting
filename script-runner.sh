@@ -12,6 +12,7 @@ REGISTRY=(
   "variable.sh:Variable demo"
   "if-statement-1.sh:If statement minimal test"
   "if-else-statement-1.sh:If-else statement minimal test"
+  "if-statement-2-check-files.sh:check if a certain file exists"
 )
 
 # Colors for output
