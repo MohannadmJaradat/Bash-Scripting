@@ -15,6 +15,7 @@ REGISTRY=(
   "if-statement-2-check-files.sh:check if a certain file exists"
   "if-else-statement-check-command.sh:check whether command exists"
   "if-else-statement-using-command-v.sh:Using command -v"
+  "exit-codes-1.sh:Check whether htop is installed using exit codes."
 )
 
 # Colors for output
@@ -63,10 +64,15 @@ while true; do
         _run "${entry%%:*}"
       done
       ;;
-    [1-9]) 
+    [1-9]* )  # Changed from [1-9] to [1-9]* to match any number starting with 1-9
       if [[ $choice -le ${#REGISTRY[@]} ]]; then
         _run "${REGISTRY[$choice-1]%%:*}"
+      else
+        echo -e "${R}Invalid choice: $choice${N}"
       fi
+      ;;
+    *)
+      echo -e "${R}Invalid choice: $choice${N}"
       ;;
   esac
   read -p "Press enter to continue"
