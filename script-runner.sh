@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Basic setup
-SCRIPTS="bash-scripts"
+SCRIPTS="/home/mohannad/Desktop/Bash-Scripting/bash-scripts"
 VER="0.1"
 
 # Scripts registry
