@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Basic setup
-SCRIPTS="/home/mohannad/Desktop/Bash-Scripting/bash-scripts"
+SCRIPTS="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 VER="0.1"
 
 # Scripts registry
@@ -20,9 +20,14 @@ N='\033[0m'
 # Run script
 _run() {
   local s="$SCRIPTS/$1"
-  echo -e "${G}▶ Running $1...${N}"
-  chmod +x "$s" && "./$s"
-  echo -e "${G}✓ Done${N}\n"
+  if [ -f "$s" ]; then
+    echo -e "${G}▶ Running $1...${N}"
+    chmod +x "$s" && "$s"
+    echo -e "${G}✓ Done${N}\n"
+  else
+    echo -e "${R}Error: Script $1 not found${N}"
+    echo "Looking in: $s"
+  fi
 }
 
 # Show menu
