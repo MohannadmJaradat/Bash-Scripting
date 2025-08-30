@@ -22,6 +22,7 @@ REGISTRY=(
   "while-loops-1.sh:Simple while loop."
   "while-loop-2.sh:Continuously check whether a file exists."
   "universal-update.sh:Update linux distro."
+  "for-loop-1.sh:Simple for loop."
 )
 
 # Colors for output
