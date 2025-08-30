@@ -21,6 +21,7 @@ REGISTRY=(
   "exit-codes-4.sh:Manipulate exit codes."
   "while-loops-1.sh:Simple while loop."
   "while-loop-2.sh:Continuously check whether a file exists."
+  "universal-update.sh:Update linux distro."
 )
 
 # Colors for output
