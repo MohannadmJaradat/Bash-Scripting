@@ -19,6 +19,8 @@ REGISTRY=(
   "exit-codes-2.sh:Redirecting output to log files."
   "exit-codes-3.sh:Check whether directory exists."
   "exit-codes-4.sh:Manipulate exit codes."
+  "while-loops-1.sh:Simple while loop."
+  "while-loop-2.sh:Continuously check whether a file exists."
 )
 
 # Colors for output
@@ -29,7 +31,7 @@ N='\033[0m'
 # Run script
 _run() {
   local s="$SCRIPTS/$1"
-  if [ -f "$s" ]; thenS
+  if [ -f "$s" ]; then
     echo -e "${G}▶ Running $1...${N}"
     chmod +x "$s" && "$s"
     echo -e "${G}✓ Done${N}\n"
