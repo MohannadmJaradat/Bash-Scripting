@@ -8,17 +8,9 @@ then
     sudo pacman -Syu
 fi
 
-if grep -q "Debian" ${release_file}
+if grep -q "Debian" ${release_file} || grep -q "Ubuntu" ${release_file}
 then
-    # The host is based on Debian,
-    # Run the apt version of the command
-    sudo apt update
-    sudo apt dist-upgrade
-fi
-
-if grep -q "Ubuntu" ${release_file}
-then
-    # The host is based on Ubuntu,
+    # The host is based on Ubnutu,
     # Run the apt version of the command
     sudo apt update
     sudo apt dist-upgrade
