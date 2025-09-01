@@ -24,6 +24,7 @@ REGISTRY=(
   "universal-update.sh:Update linux distro."
   "for-loop-1.sh:Simple for loop."
   "for-loop-2.sh:Archive files in a certain directory."
+  "stdin.sh:Accept input from user."
 )
 
 # Colors for output
