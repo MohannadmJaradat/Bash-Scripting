@@ -25,6 +25,8 @@ REGISTRY=(
   "for-loop-1.sh:Simple for loop."
   "for-loop-2.sh:Archive files in a certain directory."
   "stdin.sh:Accept input from user."
+  "case-statement-1.sh:Choosing a linux distro using switch statement."
+  "case-statement-2.sh:Choosing a linux distro using switch statement and while loop."
 )
 
 # Colors for output
