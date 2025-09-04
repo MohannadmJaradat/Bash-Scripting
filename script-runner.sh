@@ -28,6 +28,8 @@ REGISTRY=(
   "case-statement-1.sh:Choosing a linux distro using switch statement."
   "case-statement-2.sh:Choosing a linux distro using switch statement and while loop."
   "schedule-job-1.sh:Test running this using 'at' command."
+  "argument1.sh:Argument demonstration."
+  "argument2.sh:Count the number of objects in a directory."
 )
 
 # Colors for output
