@@ -27,6 +27,7 @@ REGISTRY=(
   "stdin.sh:Accept input from user."
   "case-statement-1.sh:Choosing a linux distro using switch statement."
   "case-statement-2.sh:Choosing a linux distro using switch statement and while loop."
+  "schedule-job-1.sh:Test running this using 'at' command."
 )
 
 # Colors for output
