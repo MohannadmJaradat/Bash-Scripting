@@ -30,6 +30,7 @@ REGISTRY=(
   "schedule-job-1.sh:Test running this using 'at' command."
   "argument1.sh:Argument demonstration."
   "argument2.sh:Count the number of objects in a directory."
+  "backup.sh:Backup script."
 )
 
 # Colors for output
