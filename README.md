@@ -22,3 +22,17 @@ echo $SHELL
 To see where your bash directory is located
 which bash
 
+look into /dev/tty
+look into stty - set terminal ("tty")
+look into tr - Transilterate or delete character
+look into od - octal dump
+look into tee - "Pipe fitting"
+look into date - print the date with formatting control
+
+----------------------
+
+You should:
+Capture standard error when appropriate.
+Throw output away if you don't need it.
+Use here documents (EOF) instead of separate data files.
+Use /dev/tty (and stty) to communicate with user, since standard error and standard output can be redirected, /dev/tty should give you a human being to talk to.

@@ -34,6 +34,7 @@ REGISTRY=(
   "login-names.sh:Generate a list of unique logged in names in sorted order"
   "processing-arguments-1.sh:Using while loop and shift command."
   "processing-arguments-2.sh:Using for loop."
+  "reading-from-file.sh:Parses contents of a file."
 )
 
 # Colors for output
