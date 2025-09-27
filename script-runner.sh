@@ -35,6 +35,8 @@ REGISTRY=(
   "processing-arguments-1.sh:Using while loop and shift command."
   "processing-arguments-2.sh:Using for loop."
   "reading-from-file.sh:Parses contents of a file."
+  "searching-01-describe-commands.sh:Describe different command types"
+  "searching-02-verbose-cd.sh:Extending a built in command."
 )
 
 # Colors for output
